@@ -159,8 +159,8 @@ const Dishes = () => {
             </div>
           </div>
           <div className="">
-            <div className=" md:flex lg:flex xl:flex 2xl:flex  pt-5 md:pt-0  pb-10 relative">
-              <div className="  relative flex-1">
+            <div className=" justify-center gap-16 flex md:flex-row flex-col items-center md:flex lg:flex xl:flex 2xl:flex  pt-5 md:pt-0  pb-10 relative">
+              <div className="  relative">
                 <div>
                   <img
                     src="/welcome-dish.png"
@@ -191,10 +191,10 @@ const Dishes = () => {
                 <img
                   src="/onion-icon-two.png"
                   alt="onion-icon"
-                  className="absolute right-2 bottom-20 h-[50px] 2xl:h-[100px] "
+                  className="absolute right-2 bottom-20 h-[50px] 2xl:h-[100px] xl:right-[-20px] xl:bottom-0 "
                 />
               </div>
-              <div className=" flex-1 pt-20 relative">
+              <div className=" pt-20 relative">
                 <div className=" p-2">
                   <div className="flex flex-col gap-5">
                     <h1 className="text-4xl xl:text-5xl 2xl:text-7xl font-davidLibre font-semibold">
@@ -224,17 +224,17 @@ const Dishes = () => {
                 <img
                   src="/flower-icon.png"
                   alt="flower-icon"
-                  className="h-[150px] 2xl:h-[200px] opacity-40 absolute top-0"
+                  className="h-[150px] 2xl:h-[200px] opacity-40 absolute top-0 xl:right-[300px]"
                 />
                 <img
                   src="/long-leaf.png"
                   alt="long-leaf"
-                  className="h-[200px]  2xl:h-[250px] absolute right-0 bottom-5"
+                  className="h-[200px]  2xl:h-[250px] absolute right-0 bottom-5 xl:bottom-[-100px] xl:right-[-100px]"
                 />
                 <img
                   src="/onion-icon-one.png"
                   alt="onion-icon"
-                  className="absolute bottom-5 h-[50px]  2xl:h-[100px] 2xl:bottom-[-100px]"
+                  className="absolute bottom-5 h-[50px] xl:bottom-[-60px] 2xl:h-[100px] 2xl:bottom-[-100px]"
                 />
               </div>
             </div>
