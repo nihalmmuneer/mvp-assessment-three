@@ -51,10 +51,10 @@ const Dishes = () => {
                     <img
                       src="/lumpa-img.png"
                       alt="lumpa-img"
-                      className="absolute top-0 z-[110] left-10"
+                      className="absolute top-0 z-[110] left-10 xl:left-3"
                     />
                   </div>
-                  <span className="rounded-full z-[120] bg-black text-white font-davidLibre text-lg font-bold h-[50px] w-[50px] flex items-center justify-center absolute top-14 left-52">
+                  <span className="rounded-full z-[120] bg-black text-white font-davidLibre text-lg font-bold h-[50px] w-[50px] flex items-center justify-center absolute xl:left-44 top-14 left-52">
                     $12
                   </span>
                   <img
@@ -81,10 +81,10 @@ const Dishes = () => {
                     <img
                       src="/fish-veggie.png"
                       alt="fish-veggie"
-                      className="absolute top-0 left-10"
+                      className="absolute top-0 left-10 xl:left-3"
                     />
                   </div>
-                  <span className="rounded-full bg-black text-white font-davidLibre text-lg font-bold h-[50px] w-[50px] flex items-center justify-center absolute top-14 left-52">
+                  <span className="rounded-full xl:left-44 bg-black text-white font-davidLibre text-lg font-bold h-[50px] w-[50px] flex items-center justify-center absolute top-14 left-52">
                     $12
                   </span>
                 </div>
@@ -106,10 +106,10 @@ const Dishes = () => {
                     <img
                       src="/toffu-chilli.png"
                       alt="toffu-chilli"
-                      className="absolute top-0 left-10"
+                      className="absolute top-0 left-10 xl:left-3"
                     />
                   </div>
-                  <span className="rounded-full bg-black text-white font-davidLibre text-lg font-bold h-[50px] w-[50px] flex items-center justify-center absolute top-14 left-52">
+                  <span className="rounded-full xl:left-44 bg-black text-white font-davidLibre text-lg font-bold h-[50px] w-[50px] flex items-center justify-center absolute top-14 left-52">
                     $12
                   </span>
                 </div>
@@ -131,10 +131,10 @@ const Dishes = () => {
                     <img
                       src="/egg-cocumber.png"
                       alt="egg-cocumber"
-                      className="absolute top-0 left-10"
+                      className="absolute top-0 left-10 xl:left-3"
                     />
                   </div>
-                  <span className="rounded-full bg-black text-white font-davidLibre text-lg font-bold h-[50px] w-[50px] flex items-center justify-center absolute top-14 left-52">
+                  <span className="rounded-full xl:left-44 bg-black text-white font-davidLibre text-lg font-bold h-[50px] w-[50px] flex items-center justify-center absolute top-14 left-52">
                     $12
                   </span>
                   <img
